@@ -1,6 +1,6 @@
 import express from 'express'
 import cors from "cors"            // A middleware to handle Cross-Origin Resource Sharing, allowing your API to be accessed from different domains.
-import cookieParser  from 'cookie-parser'
+import cookieParser  from 'cookie-parser'  //cookie-parser is a middleware 
 
 
 const app = express()
